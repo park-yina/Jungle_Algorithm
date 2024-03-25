@@ -9,7 +9,7 @@ arr1.sort()
 for x in arr2:
     right_index = bisect_right(arr1, x) 
     left_index = bisect_left(arr1, x) 
-    if right_index > left_index: #
+    if right_index > left_index: 
         print(1)
     else: 
         print(0)
